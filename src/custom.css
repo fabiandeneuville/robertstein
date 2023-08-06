@@ -6,21 +6,46 @@
     opacity: 0.5;
 }
 
-.main-container {
-    position: relative;
+.header {
+    background-color: white;
+    opacity: 0.9;
 }
 
 .main-image {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .bg-white {
     background-color: black;
+}
+
+.carousel-img {
+    border: 4px solid #333;
+    max-width: 600px;
+    height: 450px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.modal-img {
+    border: 4px solid #333;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 797px) {
+    .carousel-img {
+        max-width: 280px;
+        height: 250px;
+        object-fit: cover;
+    }
 }
