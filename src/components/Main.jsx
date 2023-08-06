@@ -6,7 +6,7 @@ import Kunst from './Kunst';
 function Main(){
     return (
         <main className="main-container">
-            <Container className='p-2 pt-5'>
+            <Container className='p-2 pt-5 pb-5'>
                 <Article
                 id={"biografie"}
                 title={"Biografie"}
