@@ -4,30 +4,33 @@ import { Row, Col } from 'react-bootstrap';
 function Biographie(){
     return (
         <div>
-            <Row className='d-flex'>
+            <Row className='d-flex p-2'>
                 <Col sm={12} md={3} className='d-flex justify-content-center align-items-center'>
                     <div className="bio-img-wrapper">
                         <img className="bio-img" src={robert} alt="Porträt von Robert Stein" />
                     </div>
                 </Col>
                 <Col sm={12} md={9} className='d-flex flex-column justify-content-center align-items-center p-3 p-md-1'>
-                    <h3>Robert Stein</h3>
+                    <h2>Robert Stein</h2>
                     <p className='text-center'>09.04.1876 - 23.08.1958</p>
                 </Col>
             </Row>
-            <Row>
+            <Row className='p-2'>
                 <Col>
-                    <p className='p-2 mb-2 bio-text'>Geboren in Halberstadt (Harz).
-                    Seine schulische Laufbahn beginnt mit dem Besuch eines Seminars und später einer Mittelschule, wo er stets als Klassenbester galt. Er wurde 1890 konfirmiert. Anschließend besuchte er das Seminar in Halberstadt und erlangte 1896 seine erste Lehrerzertifizierung, gefolgt von einer zweiten im Jahr 1898. Ab 1896 unterrichtete er in den Schulen der Stadt Zeitz und engagierte sich stark in künstlerischen Aktivitäten, indem er Zeichnungen für Schulen, den Handwerksverein und einen leitenden Arzt im Krankenhaus anfertigte.
-                    </p>
-                    <p className='p-2 mb-2 bio-text'>Im Jahr 1899 bewirbt er sich über das Ministerium an der Kunstschule in Berlin und wurde mit der Zusage einer Stipendiumszusage von 500 RM angenommen. Ab dem Jahr 1900 begann er seine Karriere als Gemeindelehrer in Berlin, und 1904 bestand er die Prüfung als Zeichenlehrer für höhere Schulen. 1906 wurde er als Zeichenlehrer an der höheren Knabenschule, später als Humboldtschule in Tegel, angestellt.</p>
-                    <p className='p-2 mb-2 bio-text'>Im Jahr 1929 wurde er zum Studienrat befördert und unterrichtete bis zu seiner ersten Pensionierung 1938 an derselben Schule. 1940 wurde er erneut an der Humboldtschule eingesetzt, bis er 1945 seine zweite Pensionierung annahm. Ab Mai 1945 arbeitete er zum dritten Mal an der Humboldtschule.</p>
-                    <p className='p-2 mb-2 bio-text'>Parallel zu seiner Tätigkeit als Lehrer setzte er seine künstlerische Ausbildung bei verschiedenen Malern fort, darunter die Professoren Paul Mohn, Philip Frank, Achtenhagen, Hendorf, Tschautsch, Heinrich Otte, Fricke und Michael. Zudem unternahm er Studienreisen mit den Malern Hans Licht, Adolf Obst und Müller-Schönefelder.</p>
-                    <p className='p-2 mb-2 bio-text'>Ab 1921 ist er Mitglied im Reichsverband bildender Künstler und trat dem Künstlerverein Pallas bei, den er später in Künstlerbund Südwest umbenannte und dessen erster Vorsitzender er wurde. Sein Atelier befindet sich in der Yorkstraße 74.</p>
-                    <p className='p-2 mb-2 bio-text'>Im Jahr 1931 wurde er Mitglied des Vereins bildender Künstler (Juryfreien Hermann Sandkuhl) und trat der Sozialdemokratischen Partei Deutschlands (SPD) bei. 1929 wurde er von der Stadt Berlin nach Wien geschickt, um den Kunstunterricht an den Wiener Schulen zu studieren und traf dort auf Professoren wie Rainer, Czizek und Larisch.</p>
-                    <p className='p-2 mb-2 bio-text'>Im Dezember 1948 erlitt er den Verlust des linken Auges, was die Fortführung seiner künstlerischen Arbeit unmöglich machte. Von 1949 bis 1954 widmete er sich der Restaurierung von Kunstwerken.</p>
-                </Col>
+                    <h4 className='py-2'>Robert Stein - Der Pädagoge</h4>
+                    <p>Robert Stein war mit Leib und Seele Künstler und Pädagoge. So stellten für ihn Beruf und Berufung eine glückliche Verbindung dar, die sein Leben mit geprägt hat. Besonders deutlich wurde das an seinem lang­jährigen Wirken als Kunst-und Zeichenlehrer an der Tegeler Humboldtschule. Viele Schüler-Ausstellungen und Aktionen, die unter seiner Leitung entstanden, legen davon Zeugnis ab. Beispiel: die Ausstellung, die zum 25jährigen Bestehen der Humboldtschule unter dem Motto &#34;Tegel - Ort der Freude, Ort der Arbeit&#34; eröffnet wurde.
+                    Das war 1928, und die Berliner Morgenpost gab zur Kenntnis: ...Der Weg... ,der beschritten wurde, kann wertvolle Anregungen für den modernen Zeichenunter­richt bieten... - die Schüler haben den Expressionismus auf der Berliner Kunstausstellung kennengelernt - so kam es zur Gestaltung eigener Erlebnisse. 1931 wurde ein alter Traum von Robert Stein wahr. Er hatte durchsetzen können, dass Prüfungen auf rein künst­lerischem Gebiet zum Erlangen des Reifezeugnisses (Abitur) führen konnten.Tatort war das Vestibül der Humboldtschule. Abgangs-Schüler hatten dort Mosaike und Keramiken als &#34;aus dem üblichen Rahmen fallende Arbeit&#34; gestaltet und in Form gebracht. Noch heute sind sie an Ort und Stelle zu besichtigen.</p>
 
+                    <p>Es war ein lebensnaher und zugleich lebensfroher Unter­richt, der angeboten wurde. Ob drin im Zeichensaal, wo zum Beispiel nach Schallplattenmusik Gemaltes entstand, ob draußen im Steinbergpark oder an den Ufern des Tegeler Sees, wo die Mücken ihr Lied zum Gelingen einer gezeichneten oder gemalten Landschaft sirrten. Das alte Schulmotto, das Wilhelm von Humboldlsche, bewahrheitete sich echt und recht im Wirken Robert Steins in Tegel, seinem &#34;Ort der Freude, Ort der Arbeit&#34; : &#34;...Bilde dich selbst, und dann wirke auf andere durch das, was du bist!&#34;</p>
+                    <hr />
+
+                    <h4 className='py-2'>Robert Stein - Der Maler</h4>
+                    <p>Robert Stein wurde im April 1876 in Halberstadt am Harz geboren. Von Zeitz, wo er zunächst Volksschullehrer war, zog es ihn um die Jahrhundertwende nach Berlin. Nach einem Studium an der Königlichen Kunstschule ließ er sich im Atelier von Hans Licht - einem Schüler von Eugen Bracht - zum Landschaftsmaler ausbilden. In einigen Ausstellungs-Besprechungen wurde Stein als ein &#34;Romantiker der Farbe&#34; bezeichnet. Er selbst stellte in einer seiner zahlreichen theoretischen Erörterungen über das Kunstverständnis einmal die Fragen:</p>
+                    <p className='text-center'>
+                        <q >...hängt Kunst wirklich so eng mit &#34;Können&#34; zusammen? Sollte Kunst doch nicht viel mehr &#34;Kündung&#34; sein?</q>
+                    </p>
+                    <p>Nicht nur das Reich der Farben, sondern auch das der Töne hatte es Robert Stein angetan - er war Mitglied des Philharmonischen Chores. In der Freizeit waren Klavier und Klampfe seine Lieblingsinstrumente. Robert Stein, der an der Humboldtschule über lange Jahre hinweg Mal- und Zeichenunterricht erteilte, starb im Alter von 82 Jahren im August 1958. Sein Grab befindet sich auf dem alten Städtischen Friedhof in Berlin-Tegel.</p>
+                </Col>
             </Row>
         </div>
     )
