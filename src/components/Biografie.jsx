@@ -25,9 +25,7 @@ function Biographie(){
                     <hr />
 
                     <h4 className='py-2'>Robert Stein - Der Maler</h4>
-                    <p>Robert Stein wurde im April 1876 in Halberstadt am Harz geboren. Von Zeitz, wo er zunächst Volksschullehrer war, zog es ihn um die Jahrhundertwende nach Berlin. Nach einem Studium an der Königlichen Kunstschule ließ er sich im Atelier von Hans Licht - einem Schüler von Eugen Bracht - zum Landschaftsmaler ausbilden. In einigen Ausstellungs-Besprechungen wurde Stein als ein &#34;Romantiker der Farbe&#34; bezeichnet. Er selbst stellte in einer seiner zahlreichen theoretischen Erörterungen über das Kunstverständnis einmal die Fragen:</p>
-                    <p className='text-center'>
-                        <q >...hängt Kunst wirklich so eng mit &#34;Können&#34; zusammen? Sollte Kunst doch nicht viel mehr &#34;Kündung&#34; sein?</q>
+                    <p>Robert Stein wurde im April 1876 in Halberstadt am Harz geboren. Von Zeitz, wo er zunächst Volksschullehrer war, zog es ihn um die Jahrhundertwende nach Berlin. Nach einem Studium an der Königlichen Kunstschule ließ er sich im Atelier von Hans Licht - einem Schüler von Eugen Bracht - zum Landschaftsmaler ausbilden. In einigen Ausstellungs-Besprechungen wurde Stein als ein &#34;Romantiker der Farbe&#34; bezeichnet. Er selbst stellte in einer seiner zahlreichen theoretischen Erörterungen über das Kunstverständnis einmal die Fragen:<q >...hängt Kunst wirklich so eng mit &#34;Können&#34; zusammen? Sollte Kunst doch nicht viel mehr &#34;Kündung&#34; sein?</q>
                     </p>
                     <p>Nicht nur das Reich der Farben, sondern auch das der Töne hatte es Robert Stein angetan - er war Mitglied des Philharmonischen Chores. In der Freizeit waren Klavier und Klampfe seine Lieblingsinstrumente. Robert Stein, der an der Humboldtschule über lange Jahre hinweg Mal- und Zeichenunterricht erteilte, starb im Alter von 82 Jahren im August 1958. Sein Grab befindet sich auf dem alten Städtischen Friedhof in Berlin-Tegel.</p>
                 </Col>
